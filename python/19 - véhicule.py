@@ -24,10 +24,10 @@ if annees_permis < 2 or nombre_accidents > 3:
     categorie = "Rouge"
 elif annees_permis < 5 and 1 <= nombre_accidents <= 2:
     categorie = "Orange"
-elif annees_permis >= 5 and nombre_accidents < 1:
-    categorie = "Vert"
 elif annees_permis > 10 and nombre_accidents == 0:
     categorie = "Bleu"
+elif annees_permis > 5 and nombre_accidents < 1:
+    categorie = "Vert"
 else:
     categorie = "Non catégorisé"
 
