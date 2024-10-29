@@ -24,7 +24,7 @@ if annees_permis < 2 or nombre_accidents > 3:
     categorie = "Rouge"
 elif 2 <= annees_permis < 5 or (1 <= nombre_accidents <= 2):
     categorie = "Orange"
-elif (5 <= annees_permis < 10 and nombre_accidents <= 1):
+elif (5 <= annees_permis < 10 or nombre_accidents <= 1):
     categorie = "Vert"
 else:
     categorie = "Bleu"  # Cette clause inclut le cas permis >= 10 ans et 0 accident.

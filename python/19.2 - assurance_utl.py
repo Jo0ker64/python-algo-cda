@@ -1,5 +1,3 @@
-from datetime import datetime
-
 def obtenir_nombre_entier(message):
     while True:
         try:

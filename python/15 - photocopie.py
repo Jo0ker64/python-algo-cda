@@ -51,25 +51,25 @@
 
 #########################################    PRIX A L'UNITÉ   #########################################
 
-# # Demande à l'utilisateur d'entrer le nombre de photocopies et le convertit en entier
+"""Demande à l'utilisateur d'entrer le nombre de photocopies et le convertit en entier"""
 # nombre_photocopies = int(input("Entrez le nombre de photocopies : "))
 
-# # Calcule le prix total en fonction du nombre de photocopies
+"""Calcule le prix total en fonction du nombre de photocopies"""
 # if nombre_photocopies <= 10:
-#         # Si 10 photocopies ou moins, le prix est de 0.20€ par copie
-#         prix = nombre_photocopies * 0.20
+"""  Si 10 photocopies ou moins, le prix est de 0.20€ par copie"""
+        #prix = nombre_photocopies * 0.20
 # elif nombre_photocopies <= 30:
-#         # Si entre 11 et 30 photocopies :
-#         # 0.20€ pour les 10 premières, puis 0.15€ pour les suivantes
-#         prix = 10 * 0.20 + (nombre_photocopies - 10) * 0.15
+"""Si entre 11 et 30 photocopies :
+0.20€ pour les 10 premières, puis 0.15€ pour les suivantes"""
+        # prix = 10 * 0.20 + (nombre_photocopies - 10) * 0.15
 # else:
-#         # Si plus de 30 photocopies :
-#         # 0.20€ pour les 10 premières,
-#         # 0.15€ pour les 20 suivantes,
-#         # 0.10€ pour le reste
-#         prix = 10 * 0.20 + 20 * 0.15 + (nombre_photocopies - 30) * 0.10
+"""Si plus de 30 photocopies :
+0.20€ pour les 10 premières,
+0.15€ pour les 20 suivantes,
+0.10€ pour le reste"""
+       # prix = 10 * 0.20 + 20 * 0.15 + (nombre_photocopies - 30) * 0.10
 
-# # Affiche le prix total formaté avec deux décimales
+"""Affiche le prix total formaté avec deux décimales"""
 # print(f"Le prix total est : {prix:.2f} €")
 
 
