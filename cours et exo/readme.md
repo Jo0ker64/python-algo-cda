@@ -44,12 +44,12 @@ Python supporte les opérations arithmétiques standard[1]:
 
 ### Conditions
 
-```python
-if condition:
+```python CONDITIONS
+if condition: SI
     # code
-elif autre_condition:
+elif autre_condition: SINON SI
     # code
-else:
+else: SINON
     # code
 ```
 
@@ -58,14 +58,14 @@ else:
 Boucle for :
 
 ```python
-for k in range(5):
+for k in range(5): POUR QUE k DANS range
     print(k, "^2 =", k**2, end=", ")
 ```
 
 Boucle while :
 
 ```python
-while condition:
+while condition: TANT QUE
     # code
     # N'oubliez pas de mettre à jour la condition
 ```
@@ -75,7 +75,7 @@ while condition:
 Définition d'une fonction :
 
 ```python
-def nom_fonction(parametre1, parametre2):
+def nom_fonction(parametre1, parametre2): FONCTION
     # code
     return resultat
 ```

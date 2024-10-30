@@ -12,13 +12,14 @@ def lancer_de(nombre_faces):
     return random.randint(1, nombre_faces)
 
 # Fonction principale du jeu de dés
-def jeu_de_des():
+def des():
     print("Bienvenue au jeu de dés !")
     
     # Initialisation des variables pour le score
     score_total = 0
     nombre_lancers = 0
 
+    #BOUCLE TANT QUE 
     while True:
         # Demande à l'utilisateur le nombre de faces du dé
         nombre_faces_input = input("Combien de faces voulez-vous pour votre dé ? (6 par défaut) ")
@@ -30,6 +31,7 @@ def jeu_de_des():
         
         # Lancement des dés et stockage des résultats
         resultats = []
+        # BOUCLE RÉPÉTITIONS POUR
         for i in range(nombre_des):
             resultat = lancer_de(nombre_faces)
             resultats.append(resultat)
@@ -63,4 +65,4 @@ def jeu_de_des():
 
 # Point d'entrée du programme
 if __name__ == "__main__":
-    jeu_de_des()
+    des()

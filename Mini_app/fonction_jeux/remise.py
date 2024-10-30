@@ -4,3 +4,6 @@ def calcul_remise(_montant, _remise):
     resultat = _montant - _montant * (_remise/100)
     # Affichage du résultat
     return print("Le prix de l'article après la remise est de : " + str(resultat) + " €")
+
+if __name__ == "__main__":
+    calcul_remise()

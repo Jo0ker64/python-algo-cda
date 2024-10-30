@@ -2,7 +2,7 @@
 # from nomDuDossier.mon_document import le ou les éléments que je souhaites utilisé
 
 from fonction_jeux.remise import calcul_remise
-from fonction_jeux.dés import jeu_de_des
+from fonction_jeux.dés import des
 from fonction_jeux.prix import juste_prix
 from fonction_jeux.horloge import horloge
 from fonction_jeux.pendu import pendu
@@ -41,7 +41,7 @@ while choix != "0":
             calcul_remise(montant, remise)
         case "2":
             # Jeu de dés
-            jeu_de_des()
+            des()
         case "3":
             # Jeu du juste prix
             juste_prix()

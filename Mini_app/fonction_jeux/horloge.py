@@ -84,5 +84,5 @@ def horloge():
         # Pause pour ne pas réactualiser en continu
         time.sleep(1)
 
-# Exécute l'horloge
-horloge()
+if __name__ == "__main__":
+    horloge()
